@@ -8,7 +8,7 @@ int main (int argc, char** argv)
 {
     rpc::client client("127.0.0.1", 50000);
 
-    std::cout << "started client";
+    std::cout << "started client" << std::endl;
 
     for (auto n=0; n < 10; n++) {
         client.call("hello_world");
