@@ -1,5 +1,5 @@
 foreach(exe "server" "client")
-    set(target ${exe}-hello-world)
+    set(target ${exe}-add)
 
     add_executable(${target} ${exe}.cpp)
 
